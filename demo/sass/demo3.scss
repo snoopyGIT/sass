@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*
+*	我是css的标准注释
+*	设置main的内边距
+*/
+.main {
+	padding: 30px 15px;
+}
+//	我是双斜杠表示单行的注释
+//	设置title(标题)的样式
+.title {
+	font-weight: bold;
+	font-size: 28px;
+	height: 38px;
+	line-height: 38px;
+}
+.body {
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+}

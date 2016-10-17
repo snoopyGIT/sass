@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*
+*	我是css的标准注释
+*	设置main的内边距
+*/
+.main {
+  padding: 30px 15px; }
+
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  height: 38px;
+  line-height: 38px; }
+
+.body {
+  font-size: 14px;
+  font-family: Microsoft YaHei; }
+
+/*# sourceMappingURL=demo3.css.map */
