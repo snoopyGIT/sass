@@ -1,0 +1,25 @@
+.main {
+  padding: 30px 15px;
+  margin-bottom: 2em; }
+  .main .title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    border-bottom: 1px solid #ccc;
+    color: #ff0000; }
+  .main .body {
+    font-family: Microsoft YaHei;
+    font: 14px/38px;
+    color: #000000;
+    text-indent: 10px; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.2em; }
+
+/*# sourceMappingURL=demo5.css.map */
