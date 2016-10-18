@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+//	普通变量
+$fontSizeOne: 28px;
+$fontSizeTwo: 14px;
+
+//	默认变量
+$baseLineHeight:	38px;
+$baseLineHeight:	24px !default;
+
+//	特殊变量
+$borderDirection:	bottom !default;
+$baseFontSize:		14px !default;
+$baseLineHeight:	1.5 !default;
+
+//	多值变量
+//	一维数组
+$color:				#ff0000 #000000;
+
+//	二维数组
+$textIndex:			5px 10px, 2px 4px;
+//$textIndex:			(5px 10px) (2px 4px);
+
+//	map
+$headings: 			(h1: 2em, h2: 1.5em, h3: 1.2em);
+
+.main {
+	padding: 30px 15px;
+	margin-bottom: map-get($headings,'h1');
+}
+.title {
+	font-weight: bold;
+	font-size: $fontSizeOne;
+	height: $baseLineHeight;
+	line-height: $baseLineHeight;
+	border-#{$borderDirection}: 1px solid #ccc;
+	color: nth($color,1);
+}
+.body {
+	font-family: Microsoft YaHei;
+	font: #{$baseFontSize}/#{$baseLineHeight};
+	color: nth($color,2);
+	text-indent: nth(nth($textIndex,1),2);	//	10px
+}
+@each $header, $size in $headings {
+  #{$header} {
+    font-size: $size;
+  }
+}
