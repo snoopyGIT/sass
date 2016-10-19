@@ -1,0 +1,29 @@
+.main {
+  padding: 30px 15px; }
+
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  height: 38px;
+  line-height: 38px; }
+
+.body {
+  font-size: 14px;
+  font-family: Microsoft YaHei; }
+
+h1-border, .speaker {
+  border: 4px solid #ff9aa9; }
+
+.speaker {
+  border-width: 2px; }
+
+#header h1, .ir {
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+#header h1 {
+  width: 300px; }
+
+/*# sourceMappingURL=demo8.css.map */
