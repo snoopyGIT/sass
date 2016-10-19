@@ -1,0 +1,54 @@
+.main {
+  padding: 30px 15px;
+  margin-bottom: 2em; }
+  .main .title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    border-bottom: 1px solid #ccc;
+    color: #ff0000; }
+  .main .body {
+    font-family: Microsoft YaHei;
+    font: 14px/38px;
+    color: #000000;
+    text-indent: 10px; }
+  h1 {
+    font-size: 2em; }
+
+  h2 {
+    font-size: 1.5em; }
+
+  h3 {
+    font-size: 1.2em; }
+  .main h4 {
+    font-size: 1em; }
+
+@media print {
+  .parent1 {
+    color: #f00; }
+    .child1 {
+      width: 200px; } }
+@media print {
+  .parent2 {
+    color: #f00; } }
+  .parent2 .child2 {
+    width: 200px; }
+
+@media print {
+  .parent3 {
+    color: #f00; } }
+  .child3 {
+    width: 200px; }
+
+.parent .child {
+  color: #f00; }
+
+.parent .child {
+  color: #f00; }
+
+.demo {
+  animation: motion 3s infinite; }
+@keyframes motion {
+  color: #ff0000; }
+
+/*# sourceMappingURL=demo6.css.map */
