@@ -1,0 +1,47 @@
+.li-one {
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.li-two {
+  border-bottom: 1px dashed #ccc;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.box {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), 0 3px 3px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), 0 3px 3px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.3); }
+
+@media only screen and (max-width: 480px) {
+  body {
+    color: red; } }
+.main {
+  padding: 30px 15px;
+  margin-bottom: 2em; }
+  .main .title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    border-bottom: 1px solid #ccc;
+    color: #ff0000;
+    opacity: 0.5;
+    filter: alpha(opacity=50); }
+  .main .body {
+    font-family: Microsoft YaHei;
+    font: 14px/38px;
+    color: #000000;
+    text-indent: 10px;
+    opacity: 0.8;
+    filter: alpha(opacity=80); }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+h3 {
+  font-size: 1.2em; }
+
+/*# sourceMappingURL=demo7.css.map */
