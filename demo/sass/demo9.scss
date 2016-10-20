@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+.main {
+  padding: 30px 15px;
+}
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+}
+.body {
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+}
+
+//  基础变量
+$baseFontSize:  10px !default;
+$gray:          #ccc !default;
+
+//  function
+@function pxToRem($px) {
+  @return $px / $baseFontSize * 1rem;
+}
+
+body {
+  font-size: $baseFontSize;
+}
+.body {
+  color: lighten($gray, 10%);
+}
+.title {
+  font-size: pxToRem(28px);
+  color: darken($gray, 50%);
+}
