@@ -1,0 +1,100 @@
+.main {
+  padding: 30px 15px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.body {
+  font-size: 14px;
+  font-family: Microsoft YaHei;
+}
+
+.ib {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+p {
+  color: green;
+}
+
+.test {
+  color: #ccc;
+}
+
+.item-through-1 {
+  width: 10px;
+}
+
+.item-through-2 {
+  width: 20px;
+}
+
+.item-through-3 {
+  width: 30px;
+}
+
+.item-to-1 {
+  width: 10px;
+}
+
+.item-to-2 {
+  width: 20px;
+}
+
+.puma-icon {
+  background-image: url("/images/puma.png");
+}
+
+.sea-slug-icon {
+  background-image: url("/images/sea-slug.png");
+}
+
+.egret-icon {
+  background-image: url("/images/egret.png");
+}
+
+.salamander-icon {
+  background-image: url("/images/salamander.png");
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.puma-icon {
+  background-image: url("/images/puma.png");
+  border: 2px solid black;
+  cursor: default;
+}
+
+.sea-slug-icon {
+  background-image: url("/images/sea-slug.png");
+  border: 2px solid blue;
+  cursor: pointer;
+}
+
+.egret-icon {
+  background-image: url("/images/egret.png");
+  border: 2px solid white;
+  cursor: move;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=demo11.css.map */

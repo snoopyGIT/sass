@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html data-dpr="1">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>sass语法---条件判断及循环</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="./css/demo11.css">
+<body>
+	<div class="main">
+		<div class="title">sass语法---条件判断及循环</div>
+		<div class="body">
+			@if判断<br>
+			@if可一个条件单独使用，也可以和@else结合多条件使用<br>
+			三目判断<br>
+			语法为：if($condition, $if_true, $if_false) 。三个参数分别表示：条件，条件为真的值，条件为假的值。<br>
+			for循环<br>
+			for循环有两种形式，分别为：@for $var from <start> through <end>和@for $var from <start> to <end><br>。$i表示变量，start表示起始值，end表示结束值，这两个的区别是关键字through表示包括end这个数，而to则不包括end这个数。<br>
+			@each循环<br>
+			语法为：@each $var in <list or map>。其中$var表示变量，而list和map表示list类型数据和map类型数据。sass 3.3.<br>0新加入了多字段循环和map数据循环。<br>
+			单个字段list数据循环<br>
+			多个字段list数据循环<br>
+			多个字段map数据循环<br>
+		</div>
+	</div>
+</body>
+</html>
